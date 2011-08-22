@@ -1,0 +1,25 @@
+
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:id="@+id/linearLayout3" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout5" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal">
+                <TableLayout android:id="@+id/tableLayout1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center">
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow01">
+                        <org.diaspora.widgets.AspectRatioImageView android:id="@+id/AspectRatioImageView03" android:layout_weight="1" android:src="@drawable/asterisk" android:layout_height="wrap_content" android:layout_width="match_parent" android:adjustViewBounds="true"></org.diaspora.widgets.AspectRatioImageView>
+                        <org.diaspora.widgets.AspectRatioImageView android:id="@+id/AspectRatioImageView02" android:layout_weight="1" android:src="@drawable/asterisk" android:layout_height="wrap_content" android:layout_width="match_parent" android:adjustViewBounds="true"></org.diaspora.widgets.AspectRatioImageView>
+                        <org.diaspora.widgets.AspectRatioImageView android:id="@+id/AspectRatioImageView01" android:layout_weight="1" android:src="@drawable/asterisk" android:layout_height="wrap_content" android:layout_width="match_parent" android:adjustViewBounds="true"></org.diaspora.widgets.AspectRatioImageView>
+                    </TableRow>
+                    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <org.diaspora.widgets.AspectRatioImageView android:src="@drawable/asterisk" android:layout_width="match_parent" android:layout_weight="1" android:adjustViewBounds="true" android:layout_height="wrap_content" android:id="@+id/im1"></org.diaspora.widgets.AspectRatioImageView>
+                        <org.diaspora.widgets.AspectRatioImageView android:src="@drawable/asterisk" android:layout_width="match_parent" android:layout_weight="1" android:adjustViewBounds="true" android:layout_height="wrap_content" android:id="@+id/im2"></org.diaspora.widgets.AspectRatioImageView>
+                        <org.diaspora.widgets.AspectRatioImageView android:src="@drawable/asterisk" android:layout_width="match_parent" android:layout_weight="1" android:adjustViewBounds="true" android:layout_height="wrap_content" android:id="@+id/im3"></org.diaspora.widgets.AspectRatioImageView>
+                    </TableRow>
+                </TableLayout>
+			</LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:gravity="center" android:padding="5dip" android:background="@color/darkgray">
+                <EditText android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="textMultiLine" android:id="@+id/editText1" android:hint="@string/wiym">
+                    <requestFocus></requestFocus>
+                </EditText>
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button1" android:text="@string/share" android:textStyle="bold"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
