@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Diaspora!</string>
     <string name="app_name">Diaspora</string>
-    <string name="signin">Sign In</string>
-    <string name="cancel">Cancel</string>
-    <string name="rememberme">Remember Me</string>
-    <string name="copyright">© Diaspora Developers</string>
-    <string name="share">Share</string>
-    <string name="wiym">What\'s in your Mind?</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
-    <string name="findpeople">Find People</string>
+    <string name="app_search_hint">Search...</string>
+    
     <string name="menu_home">Home</string>
     <string name="menu_contacts">Contacts</string>
     <string name="menu_notifications">Notifications</string>
@@ -20,4 +12,19 @@
     <string name="menu_settings">Settings</string>
     <string name="menu_aspects">Aspects</string>
     <string name="menu_invite">Invite</string>
+    <string name="menu_exit">Exit</string>
+    
+    <string name="login_button_label">Sign In</string>
+    <string name="login_diaspora_id_empty_error">Empty ID!</string>
+    
+    <string name="cancel">Cancel</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="copyright">© Diaspora Developers</string>
+    <string name="share">Share</string>
+    <string name="wiym">What\'s in your Mind?</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="findpeople">Find People</string>
+    
+    
 </resources>
